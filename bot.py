@@ -66,8 +66,7 @@ from dotenv import load_dotenv
 # CONFIG & LOGGING
 # ===============================================================================
 
-load_dotenv()
-BOT_TOKEN: str = os.environ["BOT_TOKEN"]
+
 
 MAX_MESSAGE_LEN  = 4000
 MAX_INPUT_LEN    = 10_000
